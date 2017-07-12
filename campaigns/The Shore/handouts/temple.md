@@ -4,11 +4,11 @@
 
 ### hint 1
 
-*carezzami leggera sulle ferite. 
+*carezzami leggera sulle ferite.*
 
-Lenitivo che non cura. 
+*Lenitivo che non cura.*
 
-Sei un gentile abbraccio sul mondo, oh dura sorella crudele.*
+*Sei un gentile abbraccio sul mondo, oh dura sorella crudele.*
 
 ### hint 2
 
