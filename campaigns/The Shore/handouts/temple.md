@@ -1,7 +1,7 @@
 # The Shore
 
 ## Handouts
-
+<!---
 ### hint 1
 
 *Carezzami leggera sulle ferite.*
@@ -79,3 +79,4 @@
 *del torturatore colpevole*
 
 *in questa stanza.*
+--->
