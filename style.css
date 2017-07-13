@@ -1,4 +1,17 @@
 /*style.css*/
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|Signika+Negative');
+
+/*
+    font-family: 'Fredericka the Great', cursive;
+
+    font-family: 'Signika Negative', sans-serif;
+*/
+
 body{
-  background: #003300;
+  background: #221122;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Fredericka the Great', cursive;
 }
