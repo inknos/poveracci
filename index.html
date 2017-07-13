@@ -1,18 +1,54 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css"></head>
+
+<link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Signika+Negative" rel="stylesheet">
+
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+<style>
+  body{
+    background: url(https://s-media-cache-ak0.pinimg.com/originals/0c/8d/fe/0c8dfed37c815124e08733ce61f7cd7f.jpg), #ffffff;
+    font-family: 'Signika Negative', sans-serif;
+  }
+  h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+  }
+</style>
+
 </head>
 
 <body>
+  <div class="header clearfix">
+  </div>
+
   <div class="container">
-    <h1>Poveracci Edition</h1>
+    <div class="jumbotron">
+      <h1 class="display-3">Jumbotron heading</h1>
+      <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+    </div>
+  <br>
+  <h1>Contents</h1>
+  <div class="list-group col-sm-4">
+    <a href="#" class="list-group-item">First item</a>
+    <a href="#" class="list-group-item list-group-item-warning">Second item</a>
+    <a href="#" class="list-group-item">Third item</a>
+  </div>
+  <div class="col-sm-8"></div>
+    <h3>VISIBLE CONTENT HERE</h3>
+    <div id="spoiler" style="display:none">
+      <p>HIDDEN CONTENT HERE</p>
+    </div>
+    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
+    <h3>VISIBLE CONTENT HERE</h3>
+    <div id="spoiler" style="display:none">
+      <p>HIDDEN CONTENT HERE</p>
+    </div>
+    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('spoiler') .style.display=='none') {document.getElementById('spoiler') .style.display=''}else{document.getElementById('spoiler') .style.display='none'}">Show/hide</button>
   </div>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
