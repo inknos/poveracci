@@ -10,6 +10,17 @@
 
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src='jquery.zoom.min.js'></script>
+  <script>
+    $(document).ready(function(){
+    $('#ex2').zoom({ on:'grab' });
+    $('#ex1').zoom({ on:'click' });
+    $('#ex4').zoom({ on:'toggle' });
+    });
+  </script>
+
 
   <style>
     body {
@@ -57,6 +68,13 @@
     .list-group-item .glyphicon {
       margin-right: 5px;
     }
+
+    .jumbotron{
+      margin-top: 1em;
+      margin-bottom: 1em;
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
   </style>
 
 </head>
@@ -72,57 +90,42 @@
     </div>
     <br>
 
-    <div class="col-sm-4">
-      <h3>Google Custom D&amp;D Search:</h3>
-    </div>
-    <div class="col-sm-8">
-      <div class="google-search-engine">
-        <script>
-          (function() {
-            var cx = '002893785149290940291:kajxl_dzlhq';
-            var gcse = document.createElement('script');
-            gcse.type = 'text/javascript';
-            gcse.async = true;
-            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(gcse, s);
-          })();
-        </script>
-        <gcse:search></gcse:search>
-      </div>
-    </div>
-
-    <p class="col-sm-12"> Searches in <a href="http://alcyius.com/">alcyius.com</a>, <a href="https://dnd-wiki.org/">dnd-wiki.org</a>, <a href="http://www.dandwiki.com">dandwiki.com</a>, <a href="https://dndtools.net/">dndtools.net</a> and <a href="http://www.d20srd.org/">d20srd.org</a></p>
     <h1>Contents</h1>
     <div class="just-padding">
       <div class="row">
         <div class="list-group list-group-root well" style="padding-right=1pt;">
 
           <a href="#item-1" class="list-group-item" data-toggle="collapse">
-    <i class="glyphicon glyphicon-chevron-right"></i>Players
-  </a>
+	    <i class="glyphicon glyphicon-chevron-right"></i>Players
+	  </a>
           <div class="list-group collapse" id="item-1">
 
-            <a href='#' onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1267180');
-return true;" class="list-group-item" data-toggle="collapse">
-      Undecimus
-    </a>
-            <a href="#item-1-2" class="list-group-item" data-toggle="collapse">
-      Pino
-    </a>
-            <a href="#item-1-3" class="list-group-item" data-toggle="collapse">
-      Rendesio
-    </a>
+            <a href='#' onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1281305');
+				 return true;" class="list-group-item" data-toggle="collapse">
+	      Undecimus
+	    </a>
+            <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1255981');
+				 return true;" class="list-group-item" data-toggle="collapse">
+	      Zarek detto Zeweriaskl o anche Pino
+	    </a>
+            <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1249311');
+				 return true;" class="list-group-item" data-toggle="collapse">
+	      Nanande
+	    </a>
+      <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1304359');
+   return true;" class="list-group-item" data-toggle="collapse">
+  Ainwen
+</a>
           </div>
-
+	  <!---
           <a href="#item-2" class="list-group-item" data-toggle="collapse">
-    <i class="glyphicon glyphicon-chevron-right"></i>Campaign Descriprion
-  </a>
+	    <i class="glyphicon glyphicon-chevron-right"></i>Campaign Descriprion
+	  </a>
           <div class="list-group collapse" id="item-2">
 
             <a href="#item-2-1" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>Places
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>Places
+	    </a>
             <div class="list-group collapse" id="item-2-1">
               <a href="#" class="list-group-item">Stone Tooth</a>
               <a href="#" class="list-group-item">Blasingdell</a>
@@ -130,8 +133,8 @@ return true;" class="list-group-item" data-toggle="collapse">
             </div>
 
             <a href="#item-2-2" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>People
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>People
+	    </a>
             <div class="list-group collapse" id="item-2-2">
               <a href="#" class="list-group-item">Item 2.2.1</a>
               <a href="#" class="list-group-item">Item 2.2.2</a>
@@ -139,8 +142,8 @@ return true;" class="list-group-item" data-toggle="collapse">
             </div>
 
             <a href="#item-2-3" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>Handouts
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>Handouts
+	    </a>
             <div class="list-group collapse" id="item-2-3">
               <a href="#" class="list-group-item">Common</a>
               <a href="#" class="list-group-item">Undecimus</a>
@@ -152,13 +155,13 @@ return true;" class="list-group-item" data-toggle="collapse">
 
 
           <a href="#item-3" class="list-group-item" data-toggle="collapse">
-    <i class="glyphicon glyphicon-chevron-right"></i>Descriprion
-  </a>
+	    <i class="glyphicon glyphicon-chevron-right"></i>Descriprion
+	  </a>
           <div class="list-group collapse" id="item-3">
 
             <a href="#item-3-1" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.1
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.1
+	    </a>
             <div class="list-group collapse" id="item-3-1">
               <a href="#" class="list-group-item">Item 3.1.1</a>
               <a href="#" class="list-group-item">Item 3.1.2</a>
@@ -166,8 +169,8 @@ return true;" class="list-group-item" data-toggle="collapse">
             </div>
 
             <a href="#item-3-2" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.2
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.2
+	    </a>
             <div class="list-group collapse" id="item-3-2">
               <a href="#" class="list-group-item">Item 3.2.1</a>
               <a href="#" class="list-group-item">Item 3.2.2</a>
@@ -175,32 +178,56 @@ return true;" class="list-group-item" data-toggle="collapse">
             </div>
 
             <a href="#item-3-3" class="list-group-item" data-toggle="collapse">
-      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.3
-    </a>
+	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.3
+	    </a>
             <div class="list-group collapse" id="item-3-3">
               <a href="#" class="list-group-item">Item 3.3.1</a>
               <a href="#" class="list-group-item">Item 3.3.2</a>
               <a href="#" class="list-group-item">Item 3.3.3</a>
             </div>
           </div>
+	  --->
         </div>
 
       </div>
-      <div>
+    </div>
         <div class="row">
-          <div>
+          <div class="col-sm-12">
             <h3>World Map</h3>
 
             <div id="worldmap" style="display:none">
-	      <img src="drawings/WorldMap/rect181.png" class="img-responsive">
+
+	      <span class='zoom' id='ex1'>
+                <img src='drawings/WorldMap/rect181.png' class="img-responsive" alt='Daisy on the Ohoopee'/>
+              </span>
             </div>
-            <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('worldmap') .style.display=='none') {document.getElementById('worldmap') .style.display=''}else{document.getElementById('worldmap') .style.display='none'}">Show/hide Spoiler</button>
-          </div>
+	    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('worldmap') .style.display=='none') {document.getElementById('worldmap') .style.display=''}else{document.getElementById('worldmap') .style.display='none'}">Show/hide Spoiler</button>
         </div>
       </div>
 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+      <div class="row">
+	<div class="col-sm-4">
+	  <h3>Google Custom D&amp;D Search:</h3>
+	</div>
+	<div class="col-sm-8">
+	  <div class="google-search-engine">
+            <script>
+              (function() {
+              var cx = '002893785149290940291:kajxl_dzlhq';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+              })();
+            </script>
+            <gcse:search></gcse:search>
+	  </div>
+	</div>
+	<p class="col-sm-12"> Searches in <a href="http://alcyius.com/">alcyius.com</a>, <a href="https://dnd-wiki.org/">dnd-wiki.org</a>, <a href="http://www.dandwiki.com">dandwiki.com</a>, <a href="https://dndtools.net/">dndtools.net</a> and <a href="http://www.d20srd.org/">d20srd.org</a></p>
+      </div>
+</div><!---container--->
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

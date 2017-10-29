@@ -24,11 +24,11 @@
      inkscape:window-height="1015"
      inkscape:window-width="1890"
      showgrid="false"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="layer2"
      inkscape:document-units="mm"
-     inkscape:cy="1069.3769"
-     inkscape:cx="-836.77211"
-     inkscape:zoom="0.90509668"
+     inkscape:cy="1223.6327"
+     inkscape:cx="-1277.0718"
+     inkscape:zoom="0.45254834"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
@@ -36,7 +36,13 @@
      pagecolor="#ffffff"
      id="base"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="-373.15419,431.83866"
+       orientation="1,0"
+       id="guide2252"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
   <defs
      id="defs2">
     <linearGradient
@@ -139,8 +145,7 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Sea"
-     style="display:inline"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
        style="fill:none;fill-opacity:1;stroke:none;stroke-width:0.15875;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4676"
@@ -211,7 +216,8 @@
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="Hills"
-     style="display:inline">
+     style="display:inline"
+     sodipodi:insensitive="true">
     <circle
        style="fill:#a05a2c;fill-opacity:1;stroke-width:0.26458332"
        id="path5269"
@@ -5963,7 +5969,7 @@
        cy="7.5606742"
        r="1.7904971" />
     <circle
-       style="fill:#a05a2c;fill-opacity:1;stroke-width:0.26458332;stroke:none"
+       style="fill:#a05a2c;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="path2020"
        cx="-109.11069"
        cy="5.4047694"
@@ -7531,7 +7537,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Cities"
-     style="display:none"
+     style="display:inline"
      sodipodi:insensitive="true">
     <g
        inkscape:groupmode="layer"
@@ -8037,14 +8043,13 @@
        inkscape:groupmode="layer"
        id="layer11"
        inkscape:label="Main Routes"
-       sodipodi:insensitive="true"
-       style="display:inline" />
+       style="display:inline"
+       sodipodi:insensitive="true" />
     <g
        inkscape:groupmode="layer"
        id="layer17"
        inkscape:label="PG Routes"
-       style="display:inline"
-       sodipodi:insensitive="true">
+       style="display:inline">
       <path
          style="fill:none;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.1325, 0.1325;stroke-dashoffset:0;stroke-opacity:1"
          d="m -264.6181,-66.880197 c 4.44792,0.153517 5.98264,-3.06207 8.02892,-4.5237 2.04628,-1.46163 4.16564,-0.292328 6.13884,-2.33861 1.97321,-2.046282 0.29233,-9.20827 0.29233,-9.20827 -8.25821,-1.169305 -18.51707,4.260588 -22.55937,6.259399"
@@ -8185,5 +8190,132 @@
          x="-383.10132"
          y="-152.03188"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.57777786px;font-family:Z003;-inkscape-font-specification:Z003;stroke-width:0.26458332px">Halaia, Mother</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer18"
+     inkscape:label="Legend">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2156"
+       width="71.912201"
+       height="109.32994"
+       x="-383.53174"
+       y="-139.15045" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-377.39291"
+       y="-134.47324"
+       id="text2168"><tspan
+         sodipodi:role="line"
+         id="tspan2166"
+         x="-377.39291"
+         y="-125.10947"
+         style="stroke-width:0.26458332" /></text>
+    <path
+       style="display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.15875003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path108-75"
+       sodipodi:type="arc"
+       sodipodi:cx="-379.96509"
+       sodipodi:cy="-133.59123"
+       sodipodi:rx="1.1693041"
+       sodipodi:ry="1.1693041"
+       sodipodi:start="0"
+       sodipodi:end="6.2566039"
+       sodipodi:open="true"
+       d="m -378.79578,-133.59123 a 1.1693041,1.1693041 0 0 1 -1.16154,1.16928 1.1693041,1.1693041 0 0 1 -1.17697,-1.15374 1.1693041,1.1693041 0 0 1 1.14589,-1.18461 1.1693041,1.1693041 0 0 1 1.1922,1.13799" />
+    <path
+       style="display:inline;fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.15875003;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path256-35"
+       sodipodi:type="arc"
+       sodipodi:cx="-380.16571"
+       sodipodi:cy="-126.41025"
+       sodipodi:rx="1.0033706"
+       sodipodi:ry="0.62011719"
+       sodipodi:start="0"
+       sodipodi:end="6.2566039"
+       sodipodi:open="true"
+       d="m -379.16234,-126.41025 a 1.0033706,0.62011719 0 0 1 -0.9967,0.62011 1.0033706,0.62011719 0 0 1 -1.00995,-0.61187 1.0033706,0.62011719 0 0 1 0.98328,-0.62823 1.0033706,0.62011719 0 0 1 1.02302,0.60351" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-373.41809"
+       y="-132.46815"
+       id="text2226"><tspan
+         sodipodi:role="line"
+         id="tspan2224"
+         x="-373.41809"
+         y="-132.46815"
+         style="font-size:4.93888903px;stroke-width:0.26458332">Capitals</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-373.62061"
+       y="-125.79073"
+       id="text2230"><tspan
+         sodipodi:role="line"
+         id="tspan2228"
+         x="-373.62061"
+         y="-125.79073"
+         style="font-size:4.93888903px;stroke-width:0.26458332">Minor cities and places</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-373.58893"
+       y="-116.23306"
+       id="text2234"><tspan
+         sodipodi:role="line"
+         id="tspan2232"
+         x="-373.58893"
+         y="-116.23306"
+         style="font-size:4.93888903px;stroke-width:0.26458332">PG's Route</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-373.54163"
+       y="-109.90186"
+       id="text2238"><tspan
+         sodipodi:role="line"
+         id="tspan2236"
+         x="-373.54163"
+         y="-109.90186"
+         style="font-size:4.93888903px;stroke-width:0.26458332">Minor Routes</tspan><tspan
+         sodipodi:role="line"
+         x="-373.54163"
+         y="-96.672699"
+         style="stroke-width:0.26458332"
+         id="tspan2240" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="-373.44846"
+       y="-104.17969"
+       id="text2244"><tspan
+         sodipodi:role="line"
+         id="tspan2242"
+         x="-373.44846"
+         y="-104.17969"
+         style="font-size:4.93888903px;stroke-width:0.26458332">Main Routes</tspan><tspan
+         sodipodi:role="line"
+         x="-373.44846"
+         y="-90.950523"
+         style="stroke-width:0.26458332"
+         id="tspan2246" /></text>
+    <path
+       style="fill:none;stroke:#ff0000;stroke-width:0.26499999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.1325, 0.1325;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -381.77782,-116.56827 h 4.38489"
+       id="path2254"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.52916663, 1.05833327;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -381.59511,-110.10056 h 4.38489"
+       id="path2254-6"
+       inkscape:connector-curvature="0" />
+    <path
+       style="opacity:0.98999999;fill:none;stroke:#000000;stroke-width:0.26458332;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:1.05833327, 2.11666654;stroke-dashoffset:0;stroke-opacity:1"
+       d="m -381.55856,-104.72907 h 4.38489"
+       id="path2254-2"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
