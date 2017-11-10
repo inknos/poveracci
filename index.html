@@ -1,216 +1,243 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
+  <head>
 
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Signika+Negative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Signika+Negative"
+          rel="stylesheet">
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
-  <script src='jquery.zoom.min.js'></script>
-  <script>
-    $(document).ready(function(){
-    $('#ex2').zoom({ on:'grab' });
-    $('#ex1').zoom({ on:'click' });
-    $('#ex4').zoom({ on:'toggle' });
-    });
-  </script>
+    <script src='jquery.zoom.min.js'></script>
+    <script>
+      $(document).ready(function(){
+      $('#ex2').zoom({ on:'grab' });
+      $('#ex1').zoom({ on:'click' });
+      $('#ex4').zoom({ on:'toggle' });
+      });
+    </script>
 
 
-  <style>
-    body {
-      background: url(https://s-media-cache-ak0.pinimg.com/originals/0c/8d/fe/0c8dfed37c815124e08733ce61f7cd7f.jpg), #ffffff;
+    <style>
+      body {
+      background:
+      url(https://s-media-cache-ak0.pinimg.com/originals/0c/8d/fe/0c8dfed37c815124e08733ce61f7cd7f.jpg), #ffffff;
       font-family: 'Signika Negative', sans-serif;
-    }
+      }
 
-    h1,
-    h2,
-    h3 {
+      h1,
+      h2,
+      h3 {
       font-family: 'Fredericka the Great', cursive;
-    }
-    /*list style*/
+      }
+      /*list style*/
 
-    .just-padding {
+      .just-padding {
       padding: 15px;
-    }
+      }
 
-    .list-group.list-group-root {
+      .list-group.list-group-root {
       padding: 0;
       overflow: hidden;
-    }
+      }
 
-    .list-group.list-group-root .list-group {
+      .list-group.list-group-root .list-group {
       margin-bottom: 0;
-    }
+      }
 
-    .list-group.list-group-root .list-group-item {
+      .list-group.list-group-root .list-group-item {
       border-radius: 0;
       border-width: 1px 0 0 0;
-    }
+      }
 
-    .list-group.list-group-root>.list-group-item:first-child {
+      .list-group.list-group-root>.list-group-item:first-child {
       border-top-width: 0;
-    }
+      }
 
-    .list-group.list-group-root>.list-group>.list-group-item {
+      .list-group.list-group-root>.list-group>.list-group-item {
       padding-left: 30px;
-    }
+      }
 
-    .list-group.list-group-root>.list-group>.list-group>.list-group-item {
+      .list-group.list-group-root>.list-group>.list-group>.list-group-item {
       padding-left: 45px;
-    }
+      }
 
-    .list-group-item .glyphicon {
+      .list-group-item .glyphicon {
       margin-right: 5px;
-    }
+      }
 
-    .jumbotron{
+      .jumbotron{
       margin-top: 1em;
       margin-bottom: 1em;
       padding-top: 1em;
       padding-bottom: 1em;
-    }
-  </style>
+      }
+    </style>
 
-</head>
+  </head>
 
-<body>
-  <div class="header clearfix">
-  </div>
-
-  <div class="container">
-    <div class="jumbotron">
-      <h1 class="display-3">Poveracci Edition 2</h1>
-      <p class="lead">Campagna di Nicola</p>
+  <body>
+    <div class="header clearfix">
     </div>
-    <br>
 
-    <h1>Contents</h1>
-    <div class="just-padding">
-      <div class="row">
-        <div class="list-group list-group-root well" style="padding-right=1pt;">
-
-          <a href="#item-1" class="list-group-item" data-toggle="collapse">
-	    <i class="glyphicon glyphicon-chevron-right"></i>Players
-	  </a>
-          <div class="list-group collapse" id="item-1">
-
-            <a href='#' onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1281305');
-				 return true;" class="list-group-item" data-toggle="collapse">
-	      Undecimus
-	    </a>
-            <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1255981');
-				 return true;" class="list-group-item" data-toggle="collapse">
-	      Zarek detto Zeweriaskl o anche Pino
-	    </a>
-            <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1249311');
-				 return true;" class="list-group-item" data-toggle="collapse">
-	      Nanande
-	    </a>
-      <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1304359');
-   return true;" class="list-group-item" data-toggle="collapse">
-  Ainwen
-</a>
-          </div>
-	  <!---
-          <a href="#item-2" class="list-group-item" data-toggle="collapse">
-	    <i class="glyphicon glyphicon-chevron-right"></i>Campaign Descriprion
-	  </a>
-          <div class="list-group collapse" id="item-2">
-
-            <a href="#item-2-1" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>Places
-	    </a>
-            <div class="list-group collapse" id="item-2-1">
-              <a href="#" class="list-group-item">Stone Tooth</a>
-              <a href="#" class="list-group-item">Blasingdell</a>
-              <a href="#" class="list-group-item">Island</a>
-            </div>
-
-            <a href="#item-2-2" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>People
-	    </a>
-            <div class="list-group collapse" id="item-2-2">
-              <a href="#" class="list-group-item">Item 2.2.1</a>
-              <a href="#" class="list-group-item">Item 2.2.2</a>
-              <a href="#" class="list-group-item">Item 2.2.3</a>
-            </div>
-
-            <a href="#item-2-3" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>Handouts
-	    </a>
-            <div class="list-group collapse" id="item-2-3">
-              <a href="#" class="list-group-item">Common</a>
-              <a href="#" class="list-group-item">Undecimus</a>
-              <a href="#" class="list-group-item">Pino</a>
-              <a href="#" class="list-group-item">Rendesio</a>
-            </div>
-
-          </div>
-
-
-          <a href="#item-3" class="list-group-item" data-toggle="collapse">
-	    <i class="glyphicon glyphicon-chevron-right"></i>Descriprion
-	  </a>
-          <div class="list-group collapse" id="item-3">
-
-            <a href="#item-3-1" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.1
-	    </a>
-            <div class="list-group collapse" id="item-3-1">
-              <a href="#" class="list-group-item">Item 3.1.1</a>
-              <a href="#" class="list-group-item">Item 3.1.2</a>
-              <a href="#" class="list-group-item">Item 3.1.3</a>
-            </div>
-
-            <a href="#item-3-2" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.2
-	    </a>
-            <div class="list-group collapse" id="item-3-2">
-              <a href="#" class="list-group-item">Item 3.2.1</a>
-              <a href="#" class="list-group-item">Item 3.2.2</a>
-              <a href="#" class="list-group-item">Item 3.2.3</a>
-            </div>
-
-            <a href="#item-3-3" class="list-group-item" data-toggle="collapse">
-	      <i class="glyphicon glyphicon-chevron-right"></i>Item 3.3
-	    </a>
-            <div class="list-group collapse" id="item-3-3">
-              <a href="#" class="list-group-item">Item 3.3.1</a>
-              <a href="#" class="list-group-item">Item 3.3.2</a>
-              <a href="#" class="list-group-item">Item 3.3.3</a>
-            </div>
-          </div>
-	  --->
-        </div>
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-3">Poveracci Edition 2</h1>
+        <p class="lead">Campagna di Nicola</p>
       </div>
-    </div>
+      <br>
+
+      <h1>Contents</h1>
+      <div class="just-padding">
         <div class="row">
-          <div class="col-sm-12">
-            <h3>World Map</h3>
+          <div class="list-group list-group-root well" style="padding-right=1pt;">
 
-            <div id="worldmap" style="display:none">
+            <a href="#item-1" class="list-group-item" data-toggle="collapse">
+              <i class="glyphicon glyphicon-chevron-right"></i>Players
+            </a>
+            <div class="list-group collapse" id="item-1">
 
-	      <span class='zoom' id='ex1'>
-                <img src='drawings/WorldMap/rect181.png' class="img-responsive" alt='Daisy on the Ohoopee'/>
-              </span>
+              <a href='#' onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1281305');
+                                   return true;" class="list-group-item" data-toggle="collapse">
+                Undecimus
+              </a>
+              <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1255981');
+                                   return true;" class="list-group-item" data-toggle="collapse">
+                Zarek detto Zeweriaskl o anche Pino
+              </a>
+              <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1249311');
+                                   return true;" class="list-group-item" data-toggle="collapse">
+                Nanande
+              </a>
+              <a href="#" onclick="window.open('https://www.myth-weavers.com/sheet.html#id=1304359');
+                                   return true;" class="list-group-item" data-toggle="collapse">
+                Ainwen
+              </a>
             </div>
-	    <button title="Click to show/hide content" type="button" onclick="if(document.getElementById('worldmap') .style.display=='none') {document.getElementById('worldmap') .style.display=''}else{document.getElementById('worldmap') .style.display='none'}">Show/hide Spoiler</button>
+            <!---
+                <a href="#item-2" class="list-group-item" data-toggle="collapse">
+                  <i class="glyphicon glyphicon-chevron-right"></i>Campaign Descriprion
+                </a>
+                <div class="list-group collapse" id="item-2">
+
+                  <a href="#item-2-1" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>Places
+                  </a>
+                  <div class="list-group collapse" id="item-2-1">
+                    <a href="#" class="list-group-item">Stone Tooth</a>
+                    <a href="#" class="list-group-item">Blasingdell</a>
+                    <a href="#" class="list-group-item">Island</a>
+                  </div>
+
+                  <a href="#item-2-2" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>People
+                  </a>
+                  <div class="list-group collapse" id="item-2-2">
+                    <a href="#" class="list-group-item">Item 2.2.1</a>
+                    <a href="#" class="list-group-item">Item 2.2.2</a>
+                    <a href="#" class="list-group-item">Item 2.2.3</a>
+                  </div>
+
+                  <a href="#item-2-3" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>Handouts
+                  </a>
+                  <div class="list-group collapse" id="item-2-3">
+                    <a href="#" class="list-group-item">Common</a>
+                    <a href="#" class="list-group-item">Undecimus</a>
+                    <a href="#" class="list-group-item">Pino</a>
+                    <a href="#" class="list-group-item">Rendesio</a>
+                  </div>
+
+                </div>
+
+
+                <a href="#item-3" class="list-group-item" data-toggle="collapse">
+                  <i class="glyphicon glyphicon-chevron-right"></i>Descriprion
+                </a>
+                <div class="list-group collapse" id="item-3">
+
+                  <a href="#item-3-1" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>Item 3.1
+                  </a>
+                  <div class="list-group collapse" id="item-3-1">
+                    <a href="#" class="list-group-item">Item 3.1.1</a>
+                    <a href="#" class="list-group-item">Item 3.1.2</a>
+                    <a href="#" class="list-group-item">Item 3.1.3</a>
+                  </div>
+
+                  <a href="#item-3-2" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>Item 3.2
+                  </a>
+                  <div class="list-group collapse" id="item-3-2">
+                    <a href="#" class="list-group-item">Item 3.2.1</a>
+                    <a href="#" class="list-group-item">Item 3.2.2</a>
+                    <a href="#" class="list-group-item">Item 3.2.3</a>
+                  </div>
+
+                  <a href="#item-3-3" class="list-group-item" data-toggle="collapse">
+                    <i class="glyphicon glyphicon-chevron-right"></i>Item 3.3
+                  </a>
+                  <div class="list-group collapse" id="item-3-3">
+                    <a href="#" class="list-group-item">Item 3.3.1</a>
+                    <a href="#" class="list-group-item">Item 3.3.2</a>
+                    <a href="#" class="list-group-item">Item 3.3.3</a>
+                  </div>
+                </div>
+                --->
+          </div>
+
         </div>
       </div>
-
       <div class="row">
-	<div class="col-sm-4">
-	  <h3>Google Custom D&amp;D Search:</h3>
-	</div>
-	<div class="col-sm-8">
-	  <div class="google-search-engine">
+        <div class="col-sm-12">
+          <h3>World Map</h3>
+
+          <div id="worldmap" style="display:none">
+
+            <span class='zoom' id='ex1'>
+              <img src='drawings/WorldMap/rect181.png' class="img-responsive" alt='Daisy on the Ohoopee'/>
+            </span>
+          </div>
+          <button title="Click to show/hide content" type="button"
+                  onclick="if(document.getElementById('worldmap') .style.display=='none') {document.getElementById('worldmap')
+                           .style.display=''}else{document.getElementById('worldmap') .style.display='none'}">Show/hide Spoiler</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">Gold Weight Calculator</div>
+
+        <div class="col-sm-2">Gold Value</div>
+        <div class="col-sm-2">Silver Value</div>
+        <div class="col-sm-2">Copper Value</div>
+        <div class="col-sm-6">.</div>
+        <input class="col-sm-2" id="gold" type="text" />
+        <input class="col-sm-2" id="silver" type="text" />
+        <input class="col-sm-2" id="copper" type="text" />
+        <input class="col-sm-2" type="submit" onclick="output();">
+        <p class="col-sm-6" id="result"> </p>
+
+        <script type="text/javascript" language="javascript" charset="utf-8">
+          function output(){
+          var value1 = document.getElementById('gold').value;
+          var value2 = document.getElementById('silver').value;
+          var value3 = document.getElementById('copper').value;
+          document.getElementById('result').innerHTML = parseInt(value1 / 50) + parseInt(value2 / 50) + parseInt(value3 / 50) + " lb.";
+          }
+        </script>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Google Custom D&amp;D Search:</h3>
+        </div>
+        <div class="col-sm-8">
+          <div class="google-search-engine">
             <script>
               (function() {
               var cx = '002893785149290940291:kajxl_dzlhq';
@@ -223,13 +250,17 @@
               })();
             </script>
             <gcse:search></gcse:search>
-	  </div>
-	</div>
-	<p class="col-sm-12"> Searches in <a href="http://alcyius.com/">alcyius.com</a>, <a href="https://dnd-wiki.org/">dnd-wiki.org</a>, <a href="http://www.dandwiki.com">dandwiki.com</a>, <a href="https://dndtools.net/">dndtools.net</a> and <a href="http://www.d20srd.org/">d20srd.org</a></p>
+          </div>
+        </div>
+        <p class="col-sm-12"> Searches in <a href="http://alcyius.com/">alcyius.com</a>, <a
+                                                                                           href="https://dnd-wiki.org/">dnd-wiki.org</a>, <a href="http://www.dandwiki.com">dandwiki.com</a>, <a
+                                                                                                                                                                                                href="https://dndtools.net/">dndtools.net</a> and <a href="http://www.d20srd.org/">d20srd.org</a></p>
       </div>
-</div><!---container--->
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</body>
+    </div><!---container--->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+  </body>
 
 </html>
